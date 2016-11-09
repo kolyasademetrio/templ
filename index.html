@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title></title>
+    <title>Template</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -14,7 +14,7 @@
     <!-- <link rel="stylesheet" href="css/flexslider.css" type="text/css"/> -->
 
     <!-- popup -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
 
     <!-- fonts css -->
     <link rel="stylesheet" href="css/fonts.css">
@@ -32,137 +32,25 @@
 </head>
 <body>
 
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 header__itemInner">
-                    <a href="#" class="header__link">
-                        <img src="img/logo_header.png" alt="logo" class="header__img">
-                    </a>
-
-                    <div class="header__phoneOrder">
-                        <a href="tel:+3800000000" class="header__phone">+38 000 000 00 00</a>
-                        <a href="#popup" class="header__orderButton">Заказать звонок</a>
-                        <span class="glyphicon glyphicon-menu-hamburger"></span>
-                        <div id="popup" class="popup mfp-hide">
-                            <form action="send1.php" method="post">
-                                <div class="popup__header">
-                                    <div class="popup__title">Закажите звонок<br>прямо сейчас!</div>
-                                    <div class="popup__info">оставьте свои данные, чтобы<br> мы могли связаться с вами:</div>
-                                </div>
-                                <div class="popup__footer">
-                                    <input type="text" value="Введите Имя" class="popup__inputText" onfocus="if(this.value=='Введите Имя')this.value='';" onblur="if(this.value=='')this.value='Введите Имя';">
-                                    <input type="text" value="Введите Телефон" class="popup__inputText" onfocus="if(this.value=='Введите Телефон')this.value='';" onblur="if(this.value=='')this.value='Введите Телефон';">
-                                    <input type="submit" value="Заказать сейчас" class="popup__inputSubmit">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    
-                    <nav class="header__nav">
-                        <ul class="header__navList">
-                            <li class="header__navItem">
-                                <a href="#" class="header__navLink" id="choice">палатки</a>
-                            </li>
-                            <li class="header__navItem">
-                                <a href="#" class="header__navLink" id="feedback">отзывы</a>
-                            </li>
-                            <li class="header__navItem">
-                                <a href="#" class="header__navLink" id="toPartners">партнерам</a>
-                            </li>
-                            <li class="header__navItem">
-                                <a href="#" class="header__navLink" id="ourContacts">контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section class="mainSection">
-        test тест
-    </section>
-
-    <footer class="footer">
-        
-    </footer>
+    <div class="main">
+        main
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.12.3.min.js"></script>
+    <!-- <script src="js/jquery-2.2.4.min.js"></script> -->
 
     <!-- slider JS -->
     <!-- <script type="text/javascript" src="js/jquery.flexslider.js"></script> -->
 
     <!-- popup JS -->
-    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- <script src="js/jquery.magnific-popup.js"></script> -->
 
     <!-- custom js -->
     <script type="text/javascript" src="js/script.js"></script>
 
-    <!-- flexslider initialize -->
-    <!-- <script type="text/javascript">
-      $(window).load(function() {
-        $('.flexslider').flexslider({
-          animation: "slide",
-          controlNav: false
-        });
-      });
-    </script> -->
-
-    <!-- popup initialize -->
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $('.header__orderButton').magnificPopup({
-            type:'inline',
-            removalDelay: 500,
-            mainClass: 'mfp-fade popup_inline',
-            showCloseBtn: true,
-            closeMarkup: '<div class="mfp-close">x</div>',
-            closeBtnInside: true,
-            closeOnContentClick: false,
-            closeOnBgClick: true,
-            alignTop: false,
-            fixedContentPos: true
-        });
-
-        // $('.link').magnificPopup({
-        //     type: 'image',
-        //     removalDelay: 500,
-        //     mainClass: 'mfp-fade popup_image',
-        //     showCloseBtn: true,
-        //     closeMarkup: '<div class="mfp-close">x</div>',
-        //     closeBtnInside: true,
-        //     closeOnContentClick: false,
-        //     closeOnBgClick: true,
-        //     alignTop: false,
-        //     fixedContentPos: true,
-        //     gallery: {
-        //         enabled: true
-        //     }
-        // });
-
-        // $('.wrapper').each(function() {
-        //     $(this).magnificPopup({
-        //         delegate: '.link',
-        //         type: 'image',
-        //         removalDelay: 500,
-        //         mainClass: 'mfp-fade popup_image',
-        //         showCloseBtn: true,
-        //         closeMarkup: '<div class="mfp-close">x</div>',
-        //         closeBtnInside: true,
-        //         closeOnContentClick: false,
-        //         closeOnBgClick: true,
-        //         alignTop: false,
-        //         fixedContentPos: true,
-        //         gallery: {
-        //           enabled:true
-        //         }  
-        //     });
-        // });
-
-      });
-    </script>
+    <!-- initialzations -->
+    <!-- <script src="js/init.js"></script> -->
 
 </body>
 </html>

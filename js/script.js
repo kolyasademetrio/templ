@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	$('.main').css({'fontSize':'30px'});
+
 	/*--------------------------------- функция для адаптивного меню -----------------------------*/
 
 		function menuAdapt(menuBtn, menu, header) {
